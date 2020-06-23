@@ -1,16 +1,107 @@
-body{
-    background-color: #e0fbfc;
+@font-face{
+    font-family: titleFont;
+    src: url(RobotoSlab-VariableFont_wght.ttf);
 }
 
-#color1{
-    color: #293241;
+@font-face{
+    font-family: bodyFont;
+    src: url(Montserrat-Regular.ttf);
 }
-#color2{
-    color: #ee6c4d;
+
+*{
+    box-sizing: border-box;
 }
-#color3{
-    color: #3d5a80;
+
+body{
+    background-color: #000000;
+    font-family: bodyFont;
 }
-#color4{
-    color: #98c1d9;
+
+.header > h1{
+    color: #cccccc;
+    font-family: titleFont;
+    padding-top: 0.5em;
+}
+
+.emptyline{
+    padding-bottom: 1em;
+}
+
+.header > *{
+    text-align: center;
+}
+.header{
+    background-color: #666666;
+}
+
+.highlight{
+    color: #62A8E5;
+}
+
+.header > p, a, a:visited{
+    color: #eeeeee;
+}
+
+#default h1{
+    color: #eeeeee;
+    text-align: center;
+    padding: 1em;
+}
+
+.body > h2{
+    color: #999999;
+    text-align: center;
+}
+
+.body > p{
+    color: #eeeeee;
+    padding: 1em;
+}
+
+.body{
+    display: none;
+    grid-template-columns: 1fr;
+}
+
+.tab{
+    overflow: hidden;
+    background-color: #999999;
+    align-items: center;
+    text-align: center;
+}
+
+.tab button{
+    background-color: inherit;
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: bodyFont;
+}
+
+.tab button.active{
+    background-color: #757575;
+}
+
+.tab button:hover{
+    background-color: #757575;
+}
+
+.close{
+    cursor: pointer;
+}
+
+.close:hover{
+    text-decoration: underline;
+}
+
+@media(min-width:700px){
+    .body{
+        grid-template-columns: 1fr 1fr;
+    }
+    .body > p{
+        padding-right: 5em;
+    }
 }
