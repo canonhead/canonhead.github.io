@@ -14,7 +14,12 @@ function openTab(evt, tabName){
     }
 
     document.getElementById("default").style.display = "none";
-    document.getElementById(tabName).style.display = "grid";
+    if(tabName == "blog"){
+        document.getElementById(tabName).style.display = "block";
+    }
+    else{
+        document.getElementById(tabName).style.display = "grid";
+    }
     evt.currentTarget.className += " active";
 }
 
@@ -25,4 +30,10 @@ function home(id){
     for(var i=0; i<tablinks.length; i++){
         tablinks[i].className = tablinks[i].className.replace(" active", "")
     }
+    document.getElementById("blogentry").style.display = "none";
+}
+
+function viewEntry(entryName){
+    document.getElementById("bloglist").style.display = "none";
+    document.getElementById("blogentry").style.display = "block";
 }

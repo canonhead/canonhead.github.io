@@ -38,7 +38,7 @@ body{
     color: #62A8E5;
 }
 
-.header > p, a, a:visited{
+p, a, a:visited{
     color: #eeeeee;
 }
 
@@ -48,14 +48,16 @@ body{
     padding: 1em;
 }
 
-.body > h2{
+.body h2{
     color: #999999;
     text-align: center;
+    padding-top: 2em;
 }
 
-.body > p{
+.body p{
     color: #eeeeee;
     padding: 1em;
+    padding-top: 2em;
 }
 
 .body{
@@ -95,6 +97,34 @@ body{
 
 .close:hover{
     text-decoration: underline;
+}
+
+#blog li{
+    color: #eeeeee;
+    padding: 1em;
+}
+
+.bloglink{
+    cursor: pointer;
+}
+
+#blogentry{
+    display: none;
+    padding: 2em;
+}
+
+#blogentry h1{
+    color: #eeeeee;
+    text-align: center;
+}
+
+#blogentry h2{
+    color: #cccccc;
+    text-align: center;
+}
+
+#blogentry p{
+    color: #eeeeee;
 }
 
 @media(min-width:700px){
