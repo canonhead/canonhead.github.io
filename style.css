@@ -17,7 +17,7 @@ body{
     font-family: bodyFont;
 }
 
-.header > h1{
+.header h1{
     color: #cccccc;
     font-family: titleFont;
     padding-top: 0.5em;
@@ -124,6 +124,10 @@ p, a, a:visited{
 }
 
 #blogentry p{
+    color: #eeeeee;
+}
+
+.container h1{
     color: #eeeeee;
 }
 
