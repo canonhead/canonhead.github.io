@@ -1,0 +1,44 @@
+body{
+    font-family: futura-pt;
+}
+h1{
+    color: black;
+}
+p{
+    color: black;   
+}
+h2{
+    color: black;
+}
+.navbar{
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 100;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: black;
+}
+.navbar a{
+    color: black;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a:hover{
+    font-style: italic;
+}
+.navbar a.active{
+    color: gray;
+    font-style: normal  ;
+}
+.main {
+    margin-left: 280px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
