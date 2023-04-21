@@ -28,11 +28,11 @@ h2{
     font-size: 20px;
 }
 .navbar a:hover{
-    font-style: italic;
+    color: gray;
 }
 .navbar a.active{
-    color: gray;
-    font-style: normal  ;
+    font-style: italic;
+    color: black
 }
 .main {
     margin-left: 280px; /* Same as the width of the sidebar */
