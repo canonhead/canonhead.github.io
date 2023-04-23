@@ -42,7 +42,7 @@ h2{
     display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .navbar a{
         display: none;
     }
@@ -59,9 +59,7 @@ h2{
     }
     .navbar.responsive {position: absolute;}
     .navbar.responsive a.icon {
-      position: absolute;
-      right: 10px;
-      top: 10px;
+      display: none;
     }
     .navbar.responsive a {
       float: none;
