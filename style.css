@@ -66,4 +66,13 @@ h2{
       display: block;
       text-align: left;
     }
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .navbar a{
+        font-size: 2em;
+    }
 }
