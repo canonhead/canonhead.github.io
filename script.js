@@ -5,7 +5,7 @@ function buttonClick() {
       x.style.width = "280px";
     } else {
       x.className = "navbar";
-      x.style.width = "50px";
+      x.style.width = "60px";
     }
   }
 function mainClick() {
@@ -13,6 +13,6 @@ function mainClick() {
     if (x.className === "navbar") {
     } else {
       x.className = "navbar";
-      x.style.width = "50px";
+      x.style.width = "60px";
     }
   }

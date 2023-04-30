@@ -41,6 +41,13 @@ h2{
 .navbar .icon {
     display: none;
 }
+.main{
+    margin-right: 50px;
+}
+
+.main a{
+    color: black;
+}
 
 @media screen and (max-width: 1200px) {
     .navbar a{
@@ -74,5 +81,11 @@ h2{
     }
     .navbar a{
         font-size: 2em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1.2em;
     }
 }
